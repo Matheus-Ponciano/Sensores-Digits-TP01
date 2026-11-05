@@ -35,9 +35,7 @@
 <!-- ABOUT THE PROJECT -->
 ## Sobre o Projeto
 
-[![Exemplo][imagem_670]]
-
-Here's a blank template to get started. To avoid retyping too much info, do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`, `project_license`
+![Exemplo][imagem_670]
 
 Esse projeto é o trabalho 1 da disciplina SSC0715 - Sensores Inteligentes. É um reconhecedor visual de dígitos, em tempo real, a partir da visão de uma ESP-CAM. A ESP-CAM coleta as imagens e envia através da própria rede WIFI local "Digits-Network", o processamento das imagens é feito em python com OpenCV e um modelo CNN-2D realiza o reconhecimento de cada dígito.
 
@@ -49,14 +47,14 @@ Softwares, bibliotecas e placa arduino utilizados no projeto.
 
 #### Software
 
-* [![Python][python.org/][Python-url]]
-* [![Tensorflow][tensorflow.org][TensorFlow-url]]
-* [![OpenCV][opencv.org/][OpenCV-url]]
-* [![Arduino][arduino.cc][Arduino-url]]
+* [![Python][Python-badge]][python-url]
+* [![Tensorflow][TensorFlow-badge]][tensorflow-url]
+* [![OpenCV][OpenCV-badge]][opencv-url]
+* [![Arduino][Arduino-badge]][arduino-url]
 
 #### Sensor
 
-[![ESP-CAM][imagem_espcam]]
+![ESP-CAM][imagem_espcam]
 
 Seeed Studio XIAO ESP32-S3 Sense
 
@@ -109,8 +107,8 @@ Enquanto estiver funcionando, o script tentará reconhecer dígitos na imagem de
 
 Foram implementados dois métodos de thresholding, o de Média Adaptativa Gausseana e o Otsu. Para trocar entre eles e observar os efeitos, segure a tecla "t". 
 
-[![thresholding-gauss][imagem_174_gauss]]
-[![thresholding-otsu][imagem_174_otsu]]
+![thresholding-gauss][imagem_174_gauss]
+![thresholding-otsu][imagem_174_otsu]
 
 
 
@@ -124,7 +122,11 @@ Foram implementados dois métodos de thresholding, o de Média Adaptativa Gausse
 [imagem_espcam]: images/xiaoesp32s3sense.jpg
 
 <!-- Shields.io badges. You can a comprehensive list with many more badges at: https://github.com/inttter/md-badges -->
-[Python-url]: (https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff)
-[Arduino-url]: (https://img.shields.io/badge/Arduino-008184.svg?logo=arduino)
-[OpenCV-url]: (https://img.shields.io/badge/OpenCV-5C3EE8?logo=opencv&logoColor=fff)]
-[TensorFlow-url]: (https://img.shields.io/badge/TensorFlow-ff8f00?logo=tensorflow&logoColor=white)
+[python-url]: https://www.python.org/
+[tensorflow-url]: https://www.tensorflow.org/
+[opencv-url]: https://www.opencv.org/
+[arduino-url]: https://www.arduino.cc/
+[Python-badge]: https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff
+[Arduino-badge]: https://img.shields.io/badge/Arduino-008184.svg?logo=arduino
+[OpenCV-badge]: https://img.shields.io/badge/OpenCV-5C3EE8?logo=opencv&logoColor=fff
+[TensorFlow-badge]: https://img.shields.io/badge/TensorFlow-ff8f00?logo=tensorflow&logoColor=white
